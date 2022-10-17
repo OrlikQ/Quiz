@@ -77,4 +77,30 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.modal-active {
+    display: flex;
+}
+
+.close-modal {
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.correct {
+    color: forestgreen;
+}
+
+.incorrect {
+    color: tomato;
 }
